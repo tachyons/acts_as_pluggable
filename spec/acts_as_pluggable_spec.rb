@@ -8,4 +8,8 @@ describe ActsAsPluggable do
   it 'does something useful' do
     expect(true).to eq(true)
   end
+  it "should raise exception for duplicate plugins" do
+    ActsAsPluggable::Plugin.register :id, {}
+    expect { ActsAsPluggable::Plugin.register :id, {} }.to raise_error(ActsAsPluggable::DuplicatePlugin)
+  end
 end
