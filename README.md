@@ -52,6 +52,18 @@ module SamplePlugin
   end
 end
 ```
+## Features
+
+- [x] Loading plugins from plugin folder
+- [x] Registering plugins using hash
+- [x] Iterate through plugins
+- [ ] Activate/Inactivate plugins
+- [ ] Configuration to select list of plugins to be loaded
+- [ ] Testing the plugin on the context of main app
+- [ ] DSL for registering the plugin
+- [ ] Generic way for making and registering application hooks
+
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
@@ -60,7 +72,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/acts_as_pluggable. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/tachyons/acts_as_pluggable. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
