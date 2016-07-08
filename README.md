@@ -29,7 +29,7 @@ Add following line in Gemfile
 ```
 
 ```
-rails plugin new 'plugins/sample_plugin --full'
+rails plugin new 'plugins/sample_plugin' --full
 ```
 
 Now register plugin from engine.rb
